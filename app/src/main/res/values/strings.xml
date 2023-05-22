@@ -7,4 +7,10 @@
     <string name="click_to_login">Click to login</string>
     <string name="click_to_register">Click to register</string>
     <string name="logout">Logout</string>
+    <string name="questions_left">Questions Left</string>
+    <string name="answerA">answerA</string>
+    <string name="answerB">answerA</string>
+    <string name="answerC">answerA</string>
+    <string name="answerD">answerA</string>
+    <string name="analogQuestion">Choose the corresponding time</string>
 </resources>
