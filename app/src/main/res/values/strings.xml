@@ -13,4 +13,6 @@
     <string name="answerC">answerA</string>
     <string name="answerD">answerA</string>
     <string name="analogQuestion">Choose the corresponding time</string>
+    <string name="memorize_the_numbers_in_forward_order">Memorize the numbers in forward order</string>
+    <string name="answer_here_seperated_by_commas_i_e_1_2_3">Answer here separated by spaces (i.e. 1 2 3)</string>
 </resources>

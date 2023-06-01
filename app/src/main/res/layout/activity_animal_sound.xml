@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".AnimalSoundActivity">
+
+  <ImageButton
+      android:id="@+id/pig_btn"
+      android:layout_width="160dp"
+      android:layout_height="166dp"
+      android:layout_marginStart="32dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/pig"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.107" />
+
+  <ImageButton
+      android:id="@+id/cat_btn"
+      android:layout_width="164dp"
+      android:layout_height="169dp"
+      android:layout_marginStart="204dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/cat"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.103" />
+
+  <ImageButton
+      android:id="@+id/dog_btn"
+      android:layout_width="164dp"
+      android:layout_height="169dp"
+      android:layout_marginStart="204dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/dog"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.435" />
+
+  <ImageButton
+      android:id="@+id/frog_btn"
+      android:layout_width="164dp"
+      android:layout_height="169dp"
+      android:layout_marginStart="32dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/frog"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.435" />
+
+  <ImageButton
+      android:id="@+id/cow_btn"
+      android:layout_width="164dp"
+      android:layout_height="169dp"
+      android:layout_marginStart="32dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/cow"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.775" />
+
+  <ImageButton
+      android:id="@+id/chicken_btn"
+      android:layout_width="164dp"
+      android:layout_height="169dp"
+      android:layout_marginStart="204dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/chicken"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.775" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
