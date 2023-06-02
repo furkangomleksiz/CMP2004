@@ -65,9 +65,11 @@ public class ForwardNumberActivity extends AppCompatActivity {
 
                 }
                 forwardNumbers.setText(numberText);
+                forwardAnswer.setEnabled(false);
                 handler.postDelayed(new Runnable() {
                     public void run() {
                         forwardNumbers.setText("");
+                        forwardAnswer.setEnabled(true);
                     }
                 }, 5000);
             }
